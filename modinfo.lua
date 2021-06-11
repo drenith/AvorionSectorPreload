@@ -4,14 +4,14 @@ meta =
     -- ID of your mod; Make sure this is unique!
     -- Will be used for identifying the mod in dependency lists
     -- Will be changed to workshop ID (ensuring uniqueness) when you upload the mod to the workshop
-    id = "SectorPreload",
+    id = "2514179395",
 
     -- Name of your mod; You may want this to be unique, but it's not absolutely necessary.
     -- This is an additional helper attribute for you to easily identify your mod in the Mods() list
     name = "SectorPreload",
 
     -- Title of your mod that will be displayed to players
-    title = "HyperspaceSectorPreload",
+    title = "SectorPreload",
 
     -- Type of your mod, either "mod" or "factionpack"
     type = "mod",
@@ -44,7 +44,7 @@ meta =
     --      {id = "OptionalMod", min = "0.2", optional = true}, -- we support OptionalMod optionally, starting at version 0.2
     -- },
     dependencies = {
-
+        {id = "Avorion", max = "1.3.7"}
     },
 
     -- Set to true if the mod only has to run on the server. Clients will get notified that the mod is running on the server, but they won't download it to themselves
